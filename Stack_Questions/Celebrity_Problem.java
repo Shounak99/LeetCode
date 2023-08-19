@@ -51,4 +51,4 @@ public class Celebrity_Problem {
     	    }
     	}
     	return celebrity;}}
-}
+

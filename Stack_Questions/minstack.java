@@ -1,4 +1,4 @@
-//Problem Link https://leetcode.com/problems/min-stack/
+package Stack_Questions;
 // Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 // Implement the MinStack class:
 // MinStack() initializes the stack object.
@@ -24,8 +24,11 @@
 // minStack.pop();
 // minStack.top();    // return 0
 // minStack.getMin(); // return -2
+//package Stack_Questions;
+import java.util.*;
 class MinStack {
-    Stack<Integer> st,minst;
+    Stack<Integer> st;
+    Stack<Integer> minst;
     public MinStack() {
         st=new Stack<>();
         minst=new Stack<>();
